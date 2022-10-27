@@ -1,6 +1,8 @@
+Result:
 
+https://user-images.githubusercontent.com/114947356/198332712-3e3ae59d-2694-4f05-8bf3-aba7342b65c8.mp4
 
-Eng:
+🖥Eng:
 
 Hello! Well, here I am again.
 
@@ -13,7 +15,7 @@ Yes, I admit I haven't learned it yet, but this project gave me a lot to learn i
 The result is attached in the video. Well that's it, I'm off)
 
 
-Rus:
+🖥Rus:
 
 Привет! Ну что, опять я здесь.
 
