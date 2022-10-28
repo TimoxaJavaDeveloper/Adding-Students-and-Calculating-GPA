@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class OutSetStudents {
-    static int iL;
-    static int iB;
-    static int iC;
-    static int iS;
+    private static int iL;
+    private static int iB;
+    private static int iC;
+    private static int iS;
     private ArrayList<String> NewStud = new ArrayList<>();{NewStud.add(0,null);}
 
     private ArrayList<Float> SredGrade = new ArrayList<>();
@@ -59,6 +59,7 @@ public class OutSetStudents {
     }
 
     void GetGrade(){
+        int SredFin = 0;
         float testGrade;
         float ObSred = 0;
         int Chis = 0;
@@ -79,8 +80,9 @@ public class OutSetStudents {
             }
             System.out.print("Средняя оценка по предмету: ");
             testGrade = ObGrade / ChisSum;
-            System.out.println(testGrade);
-            ObSred += testGrade;
+            SredFin = Math.round(testGrade);
+            System.out.println(SredFin);
+            ObSred += SredFin;
             Chis++;
 
             Grade = 0;
@@ -88,7 +90,9 @@ public class OutSetStudents {
             ChisSum = 0;
         }
 
-        SredGrade.add(iC,ObSred / Chis);
+        float FinSredGrade;
+        FinSredGrade = ObSred/ Chis;
+        SredGrade.add(iC,FinSredGrade);
         System.out.println("Средний балл: " + SredGrade.get(iC));
     }
 

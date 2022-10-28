@@ -1,10 +1,10 @@
 package AddStudentsPackage;
 
 public class SettingsStudentInfo extends OutSetStudents {
-    static boolean TestOtv = true;
+    private static boolean TestOtv = true;
 
-    int otv;
-    String otvFin;
+    private int otv;
+    private String otvFin;
 
     void Menu(){
         System.out.println("\n##########\n" +
